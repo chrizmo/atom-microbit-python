@@ -16,7 +16,7 @@ except:
 
 if __name__ == '__main__':
     if install:
-        uflash_link = "https://raw.githubusercontent.com/ntoll/uflash/e3eeb6504089963683f4cc141bba8901752cef8d/uflash.py"
+        uflash_link = "https://raw.githubusercontent.com/ntoll/mu/master/mu/contrib/uflash.py"
         try:
             from urllib.request import urlopen
         except:
